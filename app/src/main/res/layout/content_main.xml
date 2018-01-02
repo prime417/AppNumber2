@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pankaj.appnumber2.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text=" Put your text here"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginTop="72dp"
+        android:text="Long Text" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_marginBottom="101dp"
+        android:text="TextView" />
+</RelativeLayout>
